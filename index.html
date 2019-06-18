@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img\logo.png"  class="logo" alt="guiño"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#Intro">Intro <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link active" href="#skills">Skills</a>
+                        <a class="nav-item nav-link active" href="#proyectos">Proyectos</a>
+                        <a class="nav-item nav-link active" href="#">Links</a>
+                      </div>
+                    </div>
+                  </nav>
+    </div>
+    <div id="Intro"  class="intro bg-light">
+      <div><label for="tituloIntro" class="titulo">Intro</label></div>
+      <div class="marcoparrafo">  
+       <div class="parrafo">
+            Profesional en el área de la Electrónica y Programación en lenguajes JAVA, Python y HTML5. Conocimientos en gestión de proyectos en metodologías ágiles (SCRUM), programación front-end, back-end, con patrones de arquitectura, CRUD, MVC y programación orientada a objetos, ademas de conocimientos en electrónica analógica, digital y automatización de procesos. Con un ingles avanzado escrito y hablado y  Japones básico escrito y hablado. 
+        </div>
+        <div class="parrafo">
+            Con gran inquietud por el aprendizaje y mejoramiento continuo, enfocado a la resolución de problemas gracias a una capacidad de abstracción de estos. Con capacidad de adaptarse fácilmente a cualquier tarea o actividad. 
+        </div>
+        <div class="parrafo">  
+            Mi objetivo es la búsqueda de algo que permita explorar las diferentes aristas de un problema y resolver estos de múltiples maneras para así encontrar algo nuevo, en algo viejo.
+        </div>
+      </div>
+        <div class="marcoFoto">
+            <img src="img/user.jpeg" alt="fotousuario" class= "fotoUsuario">
+        </div>
+    </div>
+    <div id="skills" class="intro bg-light">      
+        <div><label for="tituloSkill" class="titulo">Skills</label></div>
+        <div class="marcologos">
+          <div class="marcologoindividual">
+            <img class="logos" src="img/logohtml5.png" alt=""><label for="">HTML5</label>
+          </div>  
+          <div  class="marcologoindividual">
+            <img class="logos" src="img/logocss3.png" alt=""  style="height: 60px"><label for="">CSS</label>
+          </div>  
+          <div class="marcologoindividual">
+            <img class="logos" src="img/logojs.png" alt=""><label for="">JavaScript</label>
+          </div>  
+          <div class="marcologoindividual">
+            <img class="logos" src="img/logojava.png" alt=""><label for="">JAVA</label>
+          </div >
+          <div class="marcologoindividual">
+            <img class="logos" src="img/logopython.png" alt=""><label for="">Python</label>
+          </div>
+        </div>
+    </div>
+    <div id="proyectos" class="intro bg-light">      
+        <div><label for="tituloproyectos" class="titulo">Proyectos</label></div>
+        <div class="marcoproyectos">
+        <div class="card cartaproyecto" style="width: 18rem;">
+          <img src="img/jedicard.png" class="card-img-top imagencarta" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">JediFanPage</h5>
+            <p class="card-text">Fanpage de el juego Star Wars Jedi:Fallen Order .</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalproyecto1">Ver </button>
+          </div>
+        </div>
+        <div class="card cartaproyecto" style="width: 18rem;">
+          <img src="img/hotelcard.png" class="card-img-top imagencarta" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">HotelOpenMind</h5>
+            <p class="card-text">Programa de reservas de habitacion para el Hotel OpenMind</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalproyecto2">Ver </button>
+          </div>
+        </div>
+        <div class="card cartaproyecto" style="width: 18rem;">
+          <img src="img/Pinoscard.png" class="card-img-top imagencarta" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PinosdelBosque</h5>
+            <p class="card-text">Pagina web con noticiero y eventos del colegio Pinos del Bosque.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalproyecto3">Ver </button>
+          </div>
+        </div>
+        <div class="card cartaproyecto" style="width: 18rem;">
+          <img src="img/chinacard.png" class="card-img-top imagencarta" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ImportAPIChina</h5>
+            <p class="card-text">Creacion de API para pagina de retail.</p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalproyecto4">Ver </button>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- The Modal -->
+<div class="modal fade" id="modalproyecto1">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Jedi Fanpage</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      
+      <!-- Modal body -->
+      <div class="modal-body">
+        Este proyecto trata de una pagina fanmade de Stra Wars Jedi: Fallen Order.
+
+        Fue desarrollada en HTML5 con Boostrap4 y CSS3.
+      </div>
+      
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <a type="button" class="btn btn-success" href='https://github.com/GustavoRivera/JediFanPage'>Repository</a>  
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modalproyecto2">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Hotel OpenMind</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Este programa fue desarrollado en JAVA y una base de datos creada en MySQl.
+
+          Cuenta con patrones de arquitecturas, como MVC, CRUD, SWING y OOP.
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <a type="button" class="btn btn-success" href='https://github.com/GustavoRivera/hotelOpenMind'>Repository</a>  
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="modalproyecto3">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Colegio Pinos del Bosque</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+            Este proyecto trata de una pagina que cuenta con una base de datos para almacenar las noticias y Eventos del colegio Pinos del Bosque.
+    
+            Esta pagina fue desarrollada en Python(Django) y HTML5 con Boostrap4 y CSS3.
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <a type="button" class="btn btn-success" href='https://github.com/GustavoRivera/PinosdelBosque'>Repository</a>  
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalproyecto4">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Import API China</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              Una API creada con Python(DJango y RestFramework. 
+              Utilizacion de Json y Serializers.
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <a type="button" class="btn btn-success" href='https://github.com/GustavoRivera/ImportAPIChina'>Repository</a>  
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    <script>
+      $(document).ready(function(){
+        $('body').scrollspy({target: ".navbar", offset: 50});   
+      
+        // Add smooth scrolling on all links inside the navbar
+        $("#myNavbar a").on('click', function(event) {
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+         
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          }  // End if
+        });
+      });
+      </script>
+</body>
+</html>
